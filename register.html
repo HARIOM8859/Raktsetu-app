@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register - Blood Buddy</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="icon" href="images/logo.jpg" type="image/jpeg">
+
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <div class="header-logo">
+        <img src="images/logo.png" alt="Blood Buddy Logo">
+      </div>
+      <div class="header-list">
+        <ul>
+          <li><a href="index.html#about-us">About Us</a></li>
+          <li><a href="index.html#volunteers">Volunteer</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="help.html">Get Help</a></li>
+        </ul>
+      </div>
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <section id="register">
+      <div class="register-box">
+        <h2>Register as a Donor</h2>
+        <form action="https://formspree.io/f/mvgagdgv" method="POST">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" class="field" placeholder="Full Name" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" class="field" placeholder="Email" required>
+          <label for="password_data">Password</label>
+          <input type="password" id="password_data" name="password" class="field" placeholder="Password" required>
+          <div class="safety">Enter Password</div>
+          <label for="blood_group">Blood Group</label>
+          <select id="blood_group" name="blood_group" class="field" required>
+            <option value="" disabled selected>Select Blood Group</option>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+          </select>
+          <button type="submit" class="hero-btn">Register</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <h3>Join Our Cause</h3>
+      <p>Donating blood is simple and saves lives. Join Blood Buddy today!</p>
+      <div class="socials">
+        <ul class="sci">
+          <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://example.com" target="_blank"><i class="fas fa-globe"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="siteFooterBar">
+      <div class="content1">
+        <div class="foot">2025 © All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
