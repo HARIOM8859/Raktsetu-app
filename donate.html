@@ -3,63 +3,72 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Donate</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background: linear-gradient(135deg, #74ebd5, #ACB6E5);
-      font-family: 'Poppins', sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    .donate-container {
-      background: #ffffff;
-      padding: 40px;
-      border-radius: 15px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-      text-align: center;
-      max-width: 400px;
-      width: 90%;
-    }
-    .donate-container h1 {
-      margin-bottom: 20px;
-      font-size: 32px;
-      color: #333;
-    }
-    .donate-container p {
-      margin-bottom: 30px;
-      color: #555;
-    }
-    .donate-btn {
-      padding: 15px 30px;
-      background: #6a11cb;
-      background: linear-gradient(90deg, #2575fc 0%, #6a11cb 100%);
-      border: none;
-      color: white;
-      font-size: 18px;
-      border-radius: 50px;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      text-decoration: none;
-      display: inline-block;
-    }
-    .donate-btn:hover {
-      transform: scale(1.1);
-      background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
-    }
-  </style>
+  <title>Donate - Blood Buddy</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="icon" href="images/logo.jpg" type="image/png">
 </head>
 <body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <div class="header-logo">
+        <img src="images/logo.jpg" alt="Blood Buddy Logo">
+      </div>
+      <div class="header-list">
+        <ul>
+          <li><a href="index.html#about-us">About Us</a></li>
+          <li><a href="index.html#volunteers">Volunteer</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="help.html">Get Help</a></li>
+        </ul>
+      </div>
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+  </header>
 
-  <div class="donate-container">
-    <h1>Support Our Cause</h1>
-    <p>Help us continue our mission. Every donation makes a difference!</p>
-    <!-- Updated link here -->
-    <a href="donate.html" class="donate-btn">Donate Now</a>
-  </div>
+  <!-- Main -->
+  <main>
+    <section id="donate">
+      <div class="donate-box">
+        <h2>Connect & Save Lives</h2>
+        <ul class="steps">
+          <li><span>1</span> Register</li>
+          <li><span>2</span> Post a Blood Request</li>
+          <li><span>3</span> Respond</li>
+          <li><span>4</span> Get Notified</li>
+          <li><span>5</span> Forever Free</li>
+          <li><span>6</span> Save a Life</li>
+        </ul>
+        <div class="text-box">
+          <a href="register.html" class="hero-btn">Register</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <h3>Join Our Cause</h3>
+      <p>Donating blood is simple and saves lives. Join Blood Buddy today!</p>
+      <div class="socials">
+        <ul class="sci">
+          <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://example.com" target="_blank"><i class="fas fa-globe"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="siteFooterBar">
+      <div class="content1">
+        <div class="foot">2025 © All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/scripts.js"></script>
 </body>
 </html>
